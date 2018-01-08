@@ -133,6 +133,7 @@ class MarketItemViewController: MWZBaseViewController {
         
         ProgressHUD.show(self.navigationController!.view)
         
+        
         API.buyMarketItem(withToken: UserProfile.sharedInstance.token!,
                           item_id: item.item_id) { (json, error) in
             ProgressHUD.hiden(self.navigationController!.view, animated: true)
