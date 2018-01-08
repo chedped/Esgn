@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>theme_font_label</key>
+	<string>#4B3085</string>
+	<key>theme_font_button</key>
+	<string>#F6AC1F</string>
+	<key>theme_main</key>
+	<string>#000000</string>
+	<key>theme_sub</key>
+	<string>#beb1d3</string>
+	<key>line</key>
+	<string>#C2C0C3</string>
+	<key>darkgray</key>
+	<string>#6A6A6A</string>
+	<key>theme_red</key>
+	<string>#e42526</string>
+	<key>theme_blue</key>
+	<string>#6a85c3</string>
+</dict>
+</plist>

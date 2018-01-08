@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Kanit-Regular.ttf">
+            <string>Kanit-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="MIJ-fm-xbt" customClass="GroupGameItemView" customModule="Esgn" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="27O-tG-Uct">
+                    <rect key="frame" x="0.0" y="0.0" width="90" height="160"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mep-LZ-yeO">
+                            <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Mep-LZ-yeO" secondAttribute="height" multiplier="3:4" id="sai-Nu-tcC"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOTADOTADOTADOTADOTA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HdR-Ui-Ml8">
+                            <rect key="frame" x="0.0" y="122" width="90" height="18"/>
+                            <fontDescription key="fontDescription" name="Kanit-Regular" family="Kanit" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKE-Rb-3eP">
+                            <rect key="frame" x="17" y="140" width="35" height="18"/>
+                            <fontDescription key="fontDescription" name="Kanit-Regular" family="Kanit" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Em-2I-jAl">
+                            <rect key="frame" x="0.0" y="0.0" width="90" height="160"/>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_market_red" translatesAutoresizingMaskIntoConstraints="NO" id="veR-P1-lPq">
+                            <rect key="frame" x="0.0" y="143" width="12" height="12"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="veR-P1-lPq" firstAttribute="centerY" secondItem="CKE-Rb-3eP" secondAttribute="centerY" id="2bY-wd-3YN"/>
+                        <constraint firstItem="4Em-2I-jAl" firstAttribute="top" secondItem="27O-tG-Uct" secondAttribute="top" id="3My-tj-waM"/>
+                        <constraint firstAttribute="trailing" secondItem="Mep-LZ-yeO" secondAttribute="trailing" id="BzJ-Lq-EdN"/>
+                        <constraint firstItem="veR-P1-lPq" firstAttribute="leading" secondItem="27O-tG-Uct" secondAttribute="leading" id="EU9-je-YO0"/>
+                        <constraint firstAttribute="trailing" secondItem="HdR-Ui-Ml8" secondAttribute="trailing" id="Rkq-sI-6Hj"/>
+                        <constraint firstItem="HdR-Ui-Ml8" firstAttribute="leading" secondItem="27O-tG-Uct" secondAttribute="leading" id="ZqM-Nu-0AQ"/>
+                        <constraint firstAttribute="bottom" secondItem="4Em-2I-jAl" secondAttribute="bottom" id="aI1-n4-8Tt"/>
+                        <constraint firstItem="CKE-Rb-3eP" firstAttribute="leading" secondItem="veR-P1-lPq" secondAttribute="trailing" constant="5" id="gFb-d5-1hZ"/>
+                        <constraint firstItem="4Em-2I-jAl" firstAttribute="leading" secondItem="27O-tG-Uct" secondAttribute="leading" id="ltA-co-u7g"/>
+                        <constraint firstAttribute="trailing" secondItem="4Em-2I-jAl" secondAttribute="trailing" id="r25-Wn-1kz"/>
+                        <constraint firstItem="CKE-Rb-3eP" firstAttribute="top" secondItem="HdR-Ui-Ml8" secondAttribute="bottom" id="tb4-xH-DU8"/>
+                        <constraint firstItem="Mep-LZ-yeO" firstAttribute="leading" secondItem="27O-tG-Uct" secondAttribute="leading" id="txT-Ym-FUi"/>
+                        <constraint firstItem="Mep-LZ-yeO" firstAttribute="top" secondItem="27O-tG-Uct" secondAttribute="top" id="uSv-1S-3oZ"/>
+                        <constraint firstItem="HdR-Ui-Ml8" firstAttribute="top" secondItem="Mep-LZ-yeO" secondAttribute="bottom" constant="2" id="xEx-zV-U89"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uxE-SS-tXl" firstAttribute="bottom" secondItem="27O-tG-Uct" secondAttribute="bottom" id="F7V-Kk-ANa"/>
+                <constraint firstItem="27O-tG-Uct" firstAttribute="top" secondItem="uxE-SS-tXl" secondAttribute="top" id="Nva-hQ-SFV"/>
+                <constraint firstItem="27O-tG-Uct" firstAttribute="leading" secondItem="MIJ-fm-xbt" secondAttribute="leading" id="kHa-7A-Mgi"/>
+                <constraint firstAttribute="trailing" secondItem="27O-tG-Uct" secondAttribute="trailing" id="w3D-7v-Ia1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="uxE-SS-tXl"/>
+            <connections>
+                <outlet property="btnSelected" destination="4Em-2I-jAl" id="gmv-rx-S0n"/>
+                <outlet property="imgIcon" destination="veR-P1-lPq" id="G0Q-AB-3X8"/>
+                <outlet property="imgView" destination="Mep-LZ-yeO" id="jOQ-w2-BeV"/>
+                <outlet property="labelGame" destination="HdR-Ui-Ml8" id="YLu-Lx-VeQ"/>
+                <outlet property="labelNum" destination="CKE-Rb-3eP" id="Cay-ha-q4A"/>
+                <outlet property="view" destination="27O-tG-Uct" id="N96-Qx-xve"/>
+            </connections>
+            <point key="canvasLocation" x="-108" y="-196"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icn_market_red" width="12" height="12"/>
+    </resources>
+</document>
