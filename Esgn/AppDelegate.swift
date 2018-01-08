@@ -11,7 +11,7 @@ import SlideMenuControllerSwift
 import SwiftyJSON
 import Google.SignIn
 import GoogleSignIn
-import FBSDKCoreKit
+import FBSDKCoreKit 
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
